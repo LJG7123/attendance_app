@@ -39,8 +39,8 @@ class MyHomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text(title),
           bottom: const TabBar(tabs: [
-            Tab(icon: Icon(Icons.edit_note), text: 'Check In'),
-            Tab(icon: Icon(Icons.logout), text: 'Check Out'),
+            Tab(icon: Icon(Icons.edit_note), text: 'Check In / Out'),
+            Tab(icon: Icon(Icons.notes), text: 'Check List'),
           ]),
         ),
         body: TabBarView(children: _widgets),
